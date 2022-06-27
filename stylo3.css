@@ -59,13 +59,23 @@ body {
     text-align: center;
     background-color: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(10px);
-    
+    display: inline-block;
 }
 
 .subtituloInicio h1{
     color: rgb(19, 17, 17);
     font-family: Monotype Corsiva;
     height: 20px;
+    transition: backgraund-color,4s, ease-in-out;
+    -webkit-transition: backgraund-color,4s, ease-in-out;
+    -moz-transition: backgraund-color,4s, ease-in-out;
+    -moz-transition: backgraund-color,4s, ease-in-out;
+    -moz-transition: backgraund-color,4s, ease-in-out;
+}
+
+.subtituloInicio h1:hover{
+    background-color: #d788da;
+    width: 100%;
 }
 
 .parrafoSubtitulo{
@@ -73,6 +83,7 @@ body {
     font-family: Monotype Corsiva;
     height: 20px;
     padding: 20px;
+    
 }
 
 
@@ -522,16 +533,41 @@ body {
 /*------------------------------------------------------NOSOTRAS------------------------------------------------------*/
 .tituloMarca{
     text-align: center;
-    padding: 20px;
-    color: #6b2a2a;
+    padding: 20px;    
     margin: 0;
+    font-size: 20px;
+    background-color: white;
+    margin-top: 30px;
+    transform:translateY(-300px) ;
+    -webkit-transform: translateY(-300px);
+    -moz-transform: translateY(-300px);
+    -ms-transform: translateY(-300px);
+    -o-transform: translateY(-300px);
+}
+
+.card:hover{
+    transform:translateY(0px) ;
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    color: #6b2a2a;
 }
 
 .contenderImg{
-    width: 100%;
+   
     display: flex;
     justify-content: center;
+    
 }
+
+.img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .25s;
+}
+
 
 .contenido-texto-imagen p{
     width: 200vh;
@@ -541,6 +577,7 @@ body {
     font-family:'Times New Roman', Times, serif Arial;
     padding: 25px;
     font-size: 25px;
+
     
     
 }
@@ -552,10 +589,11 @@ body {
     text-align: center;
     font-size: 40px;
     font-size: 24px;
-    margin: 20px 0 0 0;
+    margin-bottom: 25px;
     color: #6d6363;
    
 }
+
 
 @media screen and (min-width:576px) {
     .contenido-texto-imagen p{
