@@ -13,17 +13,18 @@ body {
 .nav{
     display: flex; 
     width: 100%;
-    height: 70%;
+    height: 50%;
     align-items: center;
     padding: 10px;
-    background-color: rgb(240, 199, 205);
+    background-color: rgb(236, 188, 218);
         
 }
 
 .nav_logo{
-    width: 20%;
+    width: 10%;
     color: #c57f9b;
     font-size: 24px;
+    padding: 10px;
 }
 
 .nav_lista{
@@ -130,6 +131,7 @@ body {
     font-family: Monotype Corsiva;
     text-align: center;
     margin-bottom: 60px;
+    
 }
 
 .galeria-conjuntos{
@@ -655,82 +657,15 @@ grid-column: 2 / 4;
 
 
 
-/*
-.cards .card .contenido-texto-card{
-    width: 60%;
-    color: #fff;
-}
-
-.cards .card .contenido-texto.card p{
-    font-weight: 300;
-    padding-top: 5px;
-}
-
-
-
-
-
-
-PARA APLICAR CON MEDIA QUERY
-@media screen and (max-width:500px) {
-.cards .card{
-        height: 250px;
-        display: flex;
-        flex-direction: column;
-       align-items: center;
-    } 
-    
-    .card .cards .img{
-        height: 90px;
-        width: 90px;
-    }*/
-
-
-
-/*footer
-.footer{
+/*------------------BOOTSTRAP INICIO-----------------------------------*/
+.contendorCarrusel{
+    height: 20px;
     width: 100%;
-    display: flex;
-    padding: 5rem 0;
-    align-content: center;
-    justify-content: space-evenly;
 }
 
-#contact{
-    display: flex;
-    align-items: center;
-    align-content: center;
+/*------------------BOOTSTRAP FORMULARIO-----------------------------------*/
+.containerFormulario{
+    height: 50%;
+    width: 100%;
 }
-
-.contact-menu{
-    list-style: none;
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-direction: row;
-}
-.contact-item{
-    width: 50%;
-    padding: 5rem 0;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-}
-.contact-item img{
-    width: 2rem;
-    height: auto;
-    margin: 0 1rem;
-}
-
-.contact-item a{
-    text-decoration: none;
-    font-size: 1rem;
-}
-/*---------Fin footer----------------*/
-
-
-
-
 
